@@ -14,4 +14,9 @@ public class PersonService implements IPersonService {
 		p.setName("Ram");
 		return p;
 	}
+	
+	@Override
+	public String getPersonLocation(Integer id) {
+		return "Varanasi";
+	}
 }
